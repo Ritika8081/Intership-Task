@@ -1,0 +1,37 @@
+[
+    {
+      "cus_id": 103,
+      "addresss": "789 Oak St",
+      "email": "customer3@example.com",
+      "phone": 3456789012,
+      "pincode": 67890
+    },
+    {
+      "cus_id": 104,
+      "addresss": "101 Pine St",
+      "email": "customer4@example.com",
+      "phone": 9012345678,
+      "pincode": 12345
+    },
+    {
+      "cus_id": 105,
+      "addresss": "456 Maple St",
+      "email": "customer5@example.com",
+      "phone": 2345678901,
+      "pincode": 56789
+    },
+    {
+      "cus_id": 106,
+      "addresss": "222 Cedar St",
+      "email": "customer6@example.com",
+      "phone": 4567890123,
+      "pincode": 45678
+    },
+    {
+      "cus_id": 107,
+      "addresss": "777 Elm St",
+      "email": "customer7@example.com",
+      "phone": 5678901234,
+      "pincode": 78901
+    }
+  ]

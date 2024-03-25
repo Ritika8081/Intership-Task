@@ -1,0 +1,117 @@
+.order-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  font-size: small;
+}
+
+.search-options {
+  margin-bottom: 20px;
+  border-radius: 12rem;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.search-options h2,
+.search-options-radio,
+.search-options-radio input[type="radio"],
+.search-options-radio label,
+.search-options input[type="text"],
+.search-options button {
+  display: inline;
+  margin: 2px;
+}
+
+.search-options h2 {
+  margin-bottom: 10px;
+}
+
+.search-options-radio {
+  margin-bottom: 10px;
+  margin: 2px;
+}
+
+.search-options-radio input[type="radio"] {
+  margin-right: 10px;
+
+}
+
+.search-options input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  width: 50%;
+  background-color: rgb(219, 207, 207);
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.search-options button {
+  padding: 8px 36px;
+  background-color: #16be3b;
+  color: white;
+  border: 2px solid #16cc44;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.search-results {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.search-results h2 {
+  margin-top: 0;
+}
+
+.search-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-results ul li {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns */
+  gap: 10px; /* Adjust the gap between columns as needed */
+}
+
+.search-results ul li div {
+ 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Specific styling for the column headings */
+.search-results ul li div.heading {
+  font-weight: bold;
+  text-align: center;
+  font-size: small;
+}
+.track-button {
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.invoice-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Additional styling for the product details container */
+.product-details-container {
+  margin-top: 20px;
+  width: 50%;
+  box-shadow: #0a0a0a;
+  font-size: small;
+  border: 1px solid black;
+}
+
+.product-details-container h2 {
+  margin-top: 0;
+}

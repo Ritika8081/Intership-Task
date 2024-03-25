@@ -1,0 +1,87 @@
+[
+    {
+      "order_id": 3,
+      "order_date": "2024-03-25",
+      "mode_of_payment": "Credit Card",
+      "cus_id": 103,
+      "payment_status": "completed",
+      "order_ammount": 1800,
+      "product": {
+        "name": "Product C",
+        "qty": 3,
+        "price_rate": 600,
+        "delivery_charge": 75,
+        "date": "2024-03-27",
+        "status": "delivered",
+        "discount": 5
+      }
+    },
+    {
+      "order_id": 4,
+      "order_date": "2024-03-26",
+      "mode_of_payment": "COD",
+      "cus_id": 104,
+      "payment_status": "pending",
+      "order_ammount": 2200,
+      "product": {
+        "name": "Product D",
+        "qty": 2,
+        "price_rate": 1000,
+        "delivery_charge": 100,
+        "date": "2024-03-29",
+        "status": "shipped",
+        "discount": 0
+      }
+    },
+    {
+      "order_id": 5,
+      "order_date": "2024-03-27",
+      "mode_of_payment": "Online",
+      "cus_id": 105,
+      "payment_status": "completed",
+      "order_ammount": 3500,
+      "product": {
+        "name": "Product E",
+        "qty": 1,
+        "price_rate": 3000,
+        "delivery_charge": 50,
+        "date": "2024-03-31",
+        "status": "delivered",
+        "discount": 0
+      }
+    },
+    {
+      "order_id": 6,
+      "order_date": "2024-03-28",
+      "mode_of_payment": "COD",
+      "cus_id": 106,
+      "payment_status": "pending",
+      "order_ammount": 2800,
+      "product": {
+        "name": "Product F",
+        "qty": 4,
+        "price_rate": 600,
+        "delivery_charge": 75,
+        "date": "2024-04-01",
+        "status": "shipped",
+        "discount": 10
+      }
+    },
+    {
+      "order_id": 7,
+      "order_date": "2024-03-29",
+      "mode_of_payment": "Credit Card",
+      "cus_id": 107,
+      "payment_status": "completed",
+      "order_ammount": 1900,
+      "product": {
+        "name": "Product G",
+        "qty": 1,
+        "price_rate": 1800,
+        "delivery_charge": 0,
+        "date": "2024-04-03",
+        "status": "delivered",
+        "discount": 0
+      }
+    }
+  ]
